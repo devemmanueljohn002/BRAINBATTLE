@@ -1,0 +1,51 @@
+﻿question_number,class,subject,question_type,question,option_a,option_b,option_c,option_d,correct_answer,difficulty,status,marks
+1,SS1,ICT,MCQ,What is the meaning of data in computing?,Raw facts and figures,Processed information only,A computer program,A network connection,A,EASY,APPROVED,1
+2,SS1,ICT,MCQ,Which statement best describes information?,Unprocessed symbols,Data that has been processed into a meaningful form,A computer's physical parts,A type of storage cable,B,EASY,APPROVED,1
+3,SS1,ICT,MCQ,Which component is known as the brain of the computer?,RAM,CPU,Monitor,Keyboard,B,EASY,APPROVED,1
+4,SS1,ICT,MCQ,Which part of the CPU performs arithmetic and logical operations?,Control Unit,Arithmetic Logic Unit,Power Supply Unit,Memory Unit,B,MEDIUM,APPROVED,1
+5,SS1,ICT,MCQ,What is the function of the Control Unit?,To direct and coordinate computer operations,To display images,To store files permanently,To print documents,A,MEDIUM,APPROVED,1
+6,SS1,ICT,MCQ,Which of these is an example of primary memory?,Hard disk,DVD,RAM,Memory card,C,EASY,APPROVED,1
+7,SS1,ICT,MCQ,Which memory retains its contents when power is turned off?,RAM,Cache,ROM,Register,C,EASY,APPROVED,1
+8,SS1,ICT,MCQ,What is cache memory used for?,To store frequently used data for quick CPU access,To connect computers to the internet,To print large documents,To permanently archive videos,A,MEDIUM,APPROVED,1
+9,SS1,ICT,MCQ,Which storage unit is the largest?,Kilobyte,Megabyte,Gigabyte,Terabyte,D,EASY,APPROVED,1
+10,SS1,ICT,MCQ,How many bits make one byte?,4,8,16,32,B,EASY,APPROVED,1
+11,SS1,ICT,MCQ,Which number system uses only 0 and 1?,Decimal,Octal,Binary,Hexadecimal,C,EASY,APPROVED,1
+12,SS1,ICT,MCQ,What is the decimal equivalent of binary 1010?,8,9,10,12,C,MEDIUM,APPROVED,1
+13,SS1,ICT,MCQ,Which device converts a hard copy document into digital form?,Scanner,Speaker,Plotter,Projector,A,EASY,APPROVED,1
+14,SS1,ICT,MCQ,Which of these is an impact printer?,Laser printer,Inkjet printer,Dot-matrix printer,Thermal printer,C,MEDIUM,APPROVED,1
+15,SS1,ICT,MCQ,Which printer is generally suitable for producing high-quality text quickly?,Laser printer,Dot-matrix printer,Plotter,Line printer only,A,EASY,APPROVED,1
+16,SS1,ICT,MCQ,Which software manages computer hardware and provides services for applications?,Operating system,Spreadsheet,Presentation software,Web browser,A,EASY,APPROVED,1
+17,SS1,ICT,MCQ,Which of the following is an open-source operating system?,Microsoft Windows,macOS,Linux,iOS,C,MEDIUM,APPROVED,1
+18,SS1,ICT,MCQ,What is utility software designed to do?,"Maintain, protect or optimize a computer system",Create only slide presentations,Replace the CPU,Provide electricity to a computer,A,MEDIUM,APPROVED,1
+19,SS1,ICT,MCQ,Which of these is application software?,Device driver,Linux kernel,Microsoft Excel,BIOS,C,EASY,APPROVED,1
+20,SS1,ICT,MCQ,What is the purpose of a device driver?,To help the operating system communicate with hardware,To create a website,To compress a video,To calculate spreadsheet averages,A,MEDIUM,APPROVED,1
+21,SS1,ICT,MCQ,Which software is used to manage data in tables and perform calculations?,Word processor,Spreadsheet,Media player,Antivirus,B,EASY,APPROVED,1
+22,SS1,ICT,MCQ,"In a spreadsheet, what is a cell reference?",The name of a worksheet,The address identifying a cell,A formula result,A chart title,B,MEDIUM,APPROVED,1
+23,SS1,ICT,MCQ,Which spreadsheet function counts cells containing numbers?,SUM,COUNT,MAX,ROUND,B,MEDIUM,APPROVED,1
+24,SS1,ICT,MCQ,What does the formula =MAX(C1:C10) return?,The smallest value,The average value,The largest value,The total number of cells,C,MEDIUM,APPROVED,1
+25,SS1,ICT,MCQ,Which feature is used to arrange spreadsheet data in a particular order?,Sorting,Cropping,Mail merge,Animation,A,EASY,APPROVED,1
+26,SS1,ICT,MCQ,What is a database?,An organized collection of related data,A type of computer virus,A computer display unit,A collection of power cables,A,EASY,APPROVED,1
+27,SS1,ICT,MCQ,"In a relational database, a table consists mainly of what?",Slides and animations,Rows and columns,Frames and layers,Pages and paragraphs,B,EASY,APPROVED,1
+28,SS1,ICT,MCQ,What is the purpose of a primary key in a database table?,To uniquely identify each record,To change text colour,To duplicate records,To sort files by size,A,MEDIUM,APPROVED,1
+29,SS1,ICT,MCQ,Which language is commonly used to query relational databases?,HTML,SQL,CSS,JavaScript only,B,MEDIUM,APPROVED,1
+30,SS1,ICT,MCQ,What is a database query used for?,To retrieve or manipulate specified data,To increase monitor brightness,To format a hard disk,To create a computer network cable,A,MEDIUM,APPROVED,1
+31,SS1,ICT,MCQ,Which network type usually connects devices within a school or office building?,WAN,LAN,MAN,GAN,B,EASY,APPROVED,1
+32,SS1,ICT,MCQ,What does MAN stand for in networking?,Metropolitan Area Network,Main Access Node,Multiple Application Network,Managed Area Number,A,MEDIUM,APPROVED,1
+33,SS1,ICT,MCQ,Which device forwards data packets between networks?,Router,Repeater,Keyboard,Scanner,A,EASY,APPROVED,1
+34,SS1,ICT,MCQ,What is the function of a network switch?,To connect devices within a local network and forward frames,To convert text into sound,To store website passwords,To provide computer cooling,A,MEDIUM,APPROVED,1
+35,SS1,ICT,MCQ,Which topology connects all devices to a central connecting device?,Ring,Bus,Star,Mesh only,C,EASY,APPROVED,1
+36,SS1,ICT,MCQ,What is the internet?,A global network of interconnected computer networks,A single local computer,A word-processing application,A type of printer,A,EASY,APPROVED,1
+37,SS1,ICT,MCQ,Which protocol is used to send email between mail servers?,SMTP,HTTP,FTP,DHCP,A,MEDIUM,APPROVED,1
+38,SS1,ICT,MCQ,What does HTTPS provide compared with ordinary HTTP?,Encrypted communication using TLS,Faster typing speed,More storage space,Automatic file printing,A,MEDIUM,APPROVED,1
+39,SS1,ICT,MCQ,Which of these is a valid example of a domain name?,www.example.com,192.168.1.1.1.1,C:\\Windows,user@ only,A,EASY,APPROVED,1
+40,SS1,ICT,MCQ,What is the main purpose of an IP address?,To identify a device on a network,To measure file size,To name a computer's processor,To encrypt every document automatically,A,EASY,APPROVED,1
+41,SS1,ICT,MCQ,What is cybercrime?,Illegal activity involving computers or digital networks,Routine computer maintenance,A method of data backup,A type of spreadsheet formula,A,EASY,APPROVED,1
+42,SS1,ICT,MCQ,Which is an example of social engineering?,Tricking a user into revealing a password,Installing a licensed update,Creating a strong password,Backing up files,A,MEDIUM,APPROVED,1
+43,SS1,ICT,MCQ,What is ransomware?,Malware that encrypts or locks data and demands payment,Software for editing photographs,A tool for making backups,A type of computer monitor,A,MEDIUM,APPROVED,1
+44,SS1,ICT,MCQ,Why are regular data backups important?,They help restore data after loss or damage,They prevent all power failures,They make the CPU unnecessary,They remove the need for passwords,A,EASY,APPROVED,1
+45,SS1,ICT,MCQ,Which practice helps protect online accounts?,Using unique strong passwords and multi-factor authentication,Sharing passwords with classmates,Using the same simple password everywhere,Disabling account alerts,A,EASY,APPROVED,1
+46,SS1,ICT,MCQ,What is an algorithm?,A finite sequence of steps for solving a problem,A physical storage device,A type of network cable,A computer screen resolution,A,EASY,APPROVED,1
+47,SS1,ICT,MCQ,Which flowchart symbol represents input or output?,Oval,Parallelogram,Diamond,Hexagon,B,MEDIUM,APPROVED,1
+48,SS1,ICT,MCQ,"In programming, what is a variable?",A named storage location for a value,A permanent computer component,A network security device,A type of printer,A,EASY,APPROVED,1
+49,SS1,ICT,MCQ,What is debugging?,Finding and correcting errors in a program,Designing a computer desk,Deleting all program files,Connecting a monitor,A,EASY,APPROVED,1
+50,SS1,ICT,MCQ,Which programming structure repeats a set of instructions?,Sequence,Selection,Iteration,Compilation,C,MEDIUM,APPROVED,1

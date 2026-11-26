@@ -1,0 +1,51 @@
+﻿question_number,class,subject,question_type,question,option_a,option_b,option_c,option_d,correct_answer,difficulty,status,marks
+1,JSS 1,Mathematics,MCQ,"What is the place value of 7 in 4,735?",7,70,700,"7,000",C,EASY,APPROVED,1
+2,JSS 1,Mathematics,MCQ,What is 245 + 378?,613,623,633,643,B,EASY,APPROVED,1
+3,JSS 1,Mathematics,MCQ,What is 900 - 456?,434,444,454,464,B,EASY,APPROVED,1
+4,JSS 1,Mathematics,MCQ,What is 24 × 15?,340,350,360,370,C,EASY,APPROVED,1
+5,JSS 1,Mathematics,MCQ,What is 864 ÷ 12?,62,72,82,92,B,EASY,APPROVED,1
+6,JSS 1,Mathematics,MCQ,Which of these is an even number?,35,47,58,71,C,EASY,APPROVED,1
+7,JSS 1,Mathematics,MCQ,What is the smallest prime number?,1,2,3,5,C,EASY,APPROVED,1
+8,JSS 1,Mathematics,MCQ,What is the LCM of 4 and 6?,8,10,12,24,C,EASY,APPROVED,1
+9,JSS 1,Mathematics,MCQ,What is the HCF of 18 and 24?,3,6,9,12,B,EASY,APPROVED,1
+10,JSS 1,Mathematics,MCQ,"How is 5,000 written in words?",Five hundred,Five thousand,Fifty thousand,Five million,B,EASY,APPROVED,1
+11,JSS 1,Mathematics,MCQ,Simplify 6/12.,1/2,1/3,2/3,3/4,A,EASY,APPROVED,1
+12,JSS 1,Mathematics,MCQ,What is 1/4 + 2/4?,1/4,2/4,3/4,4/4,C,EASY,APPROVED,1
+13,JSS 1,Mathematics,MCQ,What is 3/5 as a decimal?,0.3,0.5,0.6,0.8,C,EASY,APPROVED,1
+14,JSS 1,Mathematics,MCQ,Express 0.75 as a fraction in its simplest form.,1/2,2/3,3/4,4/5,C,EASY,APPROVED,1
+15,JSS 1,Mathematics,MCQ,What is 2.5 + 3.75?,5.25,6.15,6.25,6.75,C,EASY,APPROVED,1
+16,JSS 1,Mathematics,MCQ,What is 2/3 of 30?,10,15,20,25,C,EASY,APPROVED,1
+17,JSS 1,Mathematics,MCQ,Which is the largest fraction?,1/2,1/4,3/4,1/3,C,EASY,APPROVED,1
+18,JSS 1,Mathematics,MCQ,Express 0.25 as a percentage.,2.5%,20%,25%,50%,C,EASY,APPROVED,1
+19,JSS 1,Mathematics,MCQ,Which of these is a factor of 36?,5,7,9,11,C,EASY,APPROVED,1
+20,JSS 1,Mathematics,MCQ,"What is the next number in the sequence 3, 6, 9, 12, ...?",13,14,15,18,C,EASY,APPROVED,1
+21,JSS 1,Mathematics,MCQ,What is -5 + 8?,-13,-3,3,13,C,MEDIUM,APPROVED,1
+22,JSS 1,Mathematics,MCQ,What is 7 - 12?,−5,5,−19,19,A,MEDIUM,APPROVED,1
+23,JSS 1,Mathematics,MCQ,Which of these numbers is divisible by 5?,42,53,65,72,C,EASY,APPROVED,1
+24,JSS 1,Mathematics,MCQ,What is the first multiple of 8 greater than 30?,32,36,40,48,A,MEDIUM,APPROVED,1
+25,JSS 1,Mathematics,MCQ,"If x = 4, what is the value of x + 6?",8,9,10,12,C,EASY,APPROVED,1
+26,JSS 1,Mathematics,MCQ,Simplify 3a + 2a.,5,5a,6a,a,B,EASY,APPROVED,1
+27,JSS 1,Mathematics,MCQ,"If x + 5 = 12, what is x?",5,6,7,8,C,MEDIUM,APPROVED,1
+28,JSS 1,Mathematics,MCQ,What is the coefficient of x in 7x + 3?,3,7,10,x,B,EASY,APPROVED,1
+29,JSS 1,Mathematics,MCQ,Simplify 4y - y.,y,2y,3y,4y,C,EASY,APPROVED,1
+30,JSS 1,Mathematics,MCQ,"If a = 3, find the value of 2a + 5.",6,8,10,11,D,MEDIUM,APPROVED,1
+31,JSS 1,Mathematics,MCQ,How many sides does a hexagon have?,4,5,6,8,C,EASY,APPROVED,1
+32,JSS 1,Mathematics,MCQ,An angle of 90° is called what?,Acute angle,Right angle,Obtuse angle,Straight angle,B,EASY,APPROVED,1
+33,JSS 1,Mathematics,MCQ,What is the size of a straight angle?,90°,120°,180°,360°,C,EASY,APPROVED,1
+34,JSS 1,Mathematics,MCQ,How many sides does a triangle have?,2,3,4,5,B,EASY,APPROVED,1
+35,JSS 1,Mathematics,MCQ,Find the perimeter of a square with side length 5 cm.,10 cm,15 cm,20 cm,25 cm,C,EASY,APPROVED,1
+36,JSS 1,Mathematics,MCQ,Find the area of a rectangle 8 cm long and 4 cm wide.,12 cm²,24 cm²,32 cm²,36 cm²,C,MEDIUM,APPROVED,1
+37,JSS 1,Mathematics,MCQ,How many metres are in 1 kilometre?,10,100,"1,000","10,000",C,EASY,APPROVED,1
+38,JSS 1,Mathematics,MCQ,Convert 250 cm to metres.,0.25 m,2.5 m,25 m,250 m,B,MEDIUM,APPROVED,1
+39,JSS 1,Mathematics,MCQ,Which instrument is used to measure angles?,Ruler,Compass,Protractor,Divider,C,EASY,APPROVED,1
+40,JSS 1,Mathematics,MCQ,How many faces does a cube have?,4,6,8,12,B,EASY,APPROVED,1
+41,JSS 1,Mathematics,MCQ,Simplify the ratio 6:12.,1:2,2:1,3:2,6:1,A,EASY,APPROVED,1
+42,JSS 1,Mathematics,MCQ,What is 10% of 200?,10,20,30,40,C,EASY,APPROVED,1
+43,JSS 1,Mathematics,MCQ,"A book costs ₦2,000. If ₦500 is deducted, what is the new price?","₦1,000","₦1,250","₦1,500","₦1,750",C,EASY,APPROVED,1
+44,JSS 1,Mathematics,MCQ,"Find the mean of 4, 6 and 8.",4,5,6,8,C,MEDIUM,APPROVED,1
+45,JSS 1,Mathematics,MCQ,"Find the mode of 2, 3, 3, 4, 5.",2,3,4,5,B,EASY,APPROVED,1
+46,JSS 1,Mathematics,MCQ,"Find the median of 2, 4, 6, 8, 10.",2,4,6,8,C,MEDIUM,APPROVED,1
+47,JSS 1,Mathematics,MCQ,What percentage is 40 out of 50?,40%,60%,80%,90%,C,MEDIUM,APPROVED,1
+48,JSS 1,Mathematics,MCQ,"If 3 pencils cost ₦150, how much will 6 pencils cost at the same rate?",₦200,₦250,₦300,₦350,C,MEDIUM,APPROVED,1
+49,JSS 1,Mathematics,MCQ,A car travels 120 km in 2 hours. What is its average speed?,40 km/h,50 km/h,60 km/h,80 km/h,C,MEDIUM,APPROVED,1
+50,JSS 1,Mathematics,MCQ,What is the Roman numeral for 10?,V,X,L,C,B,EASY,APPROVED,1

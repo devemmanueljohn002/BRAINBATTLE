@@ -1,0 +1,51 @@
+﻿question_number,class,subject,question_type,question,option_a,option_b,option_c,option_d,correct_answer,difficulty,status,marks
+1,SS2,ICT,MCQ,Which component of a computer system executes program instructions?,CPU,Monitor,Keyboard,Printer,A,EASY,APPROVED,1
+2,SS2,ICT,MCQ,What is the main purpose of virtual memory?,To use part of secondary storage as an extension of RAM,To replace the CPU,To increase monitor resolution,To store files only on a flash drive,A,MEDIUM,APPROVED,1
+3,SS2,ICT,MCQ,Which CPU component stores very small amounts of data for immediate processing?,Register,Hard disk,Optical drive,Power supply,A,MEDIUM,APPROVED,1
+4,SS2,ICT,MCQ,What is the function of the system clock in a computer?,To synchronize and regulate CPU operations,To display the current date only,To store application files,To connect to Wi-Fi,A,MEDIUM,APPROVED,1
+5,SS2,ICT,MCQ,Which storage technology has no moving mechanical parts?,SSD,HDD,Magnetic tape,Floppy disk,A,EASY,APPROVED,1
+6,SS2,ICT,MCQ,What is fragmentation on a hard disk?,Files being stored in non-contiguous locations,A virus deleting all files,A monitor displaying broken pixels,A network losing its password,A,MEDIUM,APPROVED,1
+7,SS2,ICT,MCQ,Which RAID level uses mirroring for data redundancy?,RAID 0,RAID 1,RAID 5,RAID 10 only,B,MEDIUM,APPROVED,1
+8,SS2,ICT,MCQ,What is the binary equivalent of decimal 15?,1010,1100,1111,1001,C,MEDIUM,APPROVED,1
+9,SS2,ICT,MCQ,What is the decimal value of hexadecimal A?,8,9,10,11,C,MEDIUM,APPROVED,1
+10,SS2,ICT,MCQ,Which logic gate produces an output of 1 only when both inputs are 1?,OR,AND,NOT,XOR,B,MEDIUM,APPROVED,1
+11,SS2,ICT,MCQ,What is the output of a NOT gate when its input is 1?,0,1,10,Undefined,A,MEDIUM,APPROVED,1
+12,SS2,ICT,MCQ,Which Boolean expression represents an OR operation?,A · B,A + B,A̅,A / B,B,MEDIUM,APPROVED,1
+13,SS2,ICT,MCQ,What is an integrated development environment (IDE)?,"Software that combines tools for writing, testing and debugging code",A device used to connect computers,A database backup format,A type of operating system kernel,A,EASY,APPROVED,1
+14,SS2,ICT,MCQ,Which language is commonly used to structure web page content?,HTML,SQL,Python only,Bash,A,EASY,APPROVED,1
+15,SS2,ICT,MCQ,Which language is mainly used to define the presentation and layout of web pages?,CSS,SQL,C,Assembly,A,EASY,APPROVED,1
+16,SS2,ICT,MCQ,What does JavaScript commonly add to a web page?,Interactivity and dynamic behaviour,Electrical power,Permanent hardware storage,A network cable connection,A,EASY,APPROVED,1
+17,SS2,ICT,MCQ,Which HTML element is used to create a hyperlink?,<link>,<a>,<href>,<url>,B,MEDIUM,APPROVED,1
+18,SS2,ICT,MCQ,What is the purpose of a CSS selector?,To identify the HTML elements to be styled,To connect a database server,To compile JavaScript,To encrypt a hard drive,A,MEDIUM,APPROVED,1
+19,SS2,ICT,MCQ,Which SQL command retrieves data from a database?,INSERT,SELECT,DELETE,UPDATE,B,EASY,APPROVED,1
+20,SS2,ICT,MCQ,Which SQL clause filters records based on a condition?,ORDER BY,WHERE,GROUP BY,JOIN,B,MEDIUM,APPROVED,1
+21,SS2,ICT,MCQ,What is database normalization intended to reduce?,Unnecessary data duplication and update anomalies,The number of users,The speed of queries in every case,The need for database security,A,MEDIUM,APPROVED,1
+22,SS2,ICT,MCQ,"In a relational database, what is a foreign key?",A field that references a key in another or the same table,A password used by visitors,A duplicate copy of a database,A field that stores pictures only,A,MEDIUM,APPROVED,1
+23,SS2,ICT,MCQ,Which database relationship allows one record in a table to relate to many records in another table?,One-to-one,One-to-many,Many-to-none,Zero-to-zero,B,MEDIUM,APPROVED,1
+24,SS2,ICT,MCQ,What is a database management system (DBMS)?,"Software used to create, manage and query databases",A device for printing database reports,A computer network cable,A type of spreadsheet cell,A,EASY,APPROVED,1
+25,SS2,ICT,MCQ,Which network device forwards packets using IP addresses?,Router,Hub,Repeater,Bridge only,A,MEDIUM,APPROVED,1
+26,SS2,ICT,MCQ,What is the main difference between a hub and a switch?,"A switch forwards data to the intended port, while a hub broadcasts to all ports",A hub encrypts data but a switch cannot,A switch works only without cables,A hub is a storage device,A,MEDIUM,APPROVED,1
+27,SS2,ICT,MCQ,Which OSI model layer is responsible for routing packets between networks?,Physical,Data Link,Network,Presentation,C,MEDIUM,APPROVED,1
+28,SS2,ICT,MCQ,Which OSI layer is responsible for end-to-end delivery and flow control?,Transport,Session,Physical,Application,A,MEDIUM,APPROVED,1
+29,SS2,ICT,MCQ,What is the purpose of DNS?,To translate domain names into IP addresses,To encrypt every file on a computer,To assign printer paper sizes,To compress video files,A,EASY,APPROVED,1
+30,SS2,ICT,MCQ,Which protocol automatically assigns IP configuration to devices?,DHCP,SMTP,FTP,SSH,A,MEDIUM,APPROVED,1
+31,SS2,ICT,MCQ,What is the main purpose of a VPN?,To create an encrypted connection over another network,To increase the physical size of a network,To remove the need for an IP address,To replace all antivirus software,A,MEDIUM,APPROVED,1
+32,SS2,ICT,MCQ,What is encryption?,Converting readable data into coded form to prevent unauthorized reading,Deleting data permanently,Compressing a file without changing its content,Copying data to another folder,A,EASY,APPROVED,1
+33,SS2,ICT,MCQ,Which security principle ensures that data is changed only by authorized users?,Confidentiality,Integrity,Availability,Portability,B,MEDIUM,APPROVED,1
+34,SS2,ICT,MCQ,What does the principle of least privilege mean?,Users receive only the access needed for their duties,All users receive administrator access,Passwords are shared among staff,Security controls are removed,A,MEDIUM,APPROVED,1
+35,SS2,ICT,MCQ,Which malware disguises itself as legitimate software?,Trojan horse,Firewall,Patch,Backup utility,A,EASY,APPROVED,1
+36,SS2,ICT,MCQ,What is a denial-of-service (DoS) attack designed to do?,Make a service unavailable by overwhelming it,Improve network performance,Create a secure backup,Encrypt a user's email voluntarily,A,MEDIUM,APPROVED,1
+37,SS2,ICT,MCQ,Which method is most suitable for verifying a user's identity with a fingerprint?,Biometric authentication,File compression,Data sorting,Disk defragmentation,A,EASY,APPROVED,1
+38,SS2,ICT,MCQ,What is the purpose of a digital certificate?,To help verify an entity's identity and support secure communication,To increase a computer's RAM,To create spreadsheet charts,To remove all cookies from a browser,A,MEDIUM,APPROVED,1
+39,SS2,ICT,MCQ,Which backup strategy copies only data changed since the last full backup?,Differential backup,Full backup,Mirror display,System formatting,A,MEDIUM,APPROVED,1
+40,SS2,ICT,MCQ,What is the purpose of version control software?,To track and manage changes to files over time,To increase processor temperature,To format a computer screen,To scan paper documents,A,EASY,APPROVED,1
+41,SS2,ICT,MCQ,Which of these is a common version control system?,Git,HTML,DHCP,BIOS,A,EASY,APPROVED,1
+42,SS2,ICT,MCQ,What is an algorithm's time complexity used to describe?,How an algorithm's running time grows with input size,The physical size of a computer,The number of colours on a screen,The age of a programming language,A,MEDIUM,APPROVED,1
+43,SS2,ICT,MCQ,Which programming structure chooses between alternative paths based on a condition?,Selection,Iteration,Sequence,Compilation,A,EASY,APPROVED,1
+44,SS2,ICT,MCQ,What is an array?,A collection of elements stored under one variable name,A device used to scan documents,A network security policy,A database password,A,EASY,APPROVED,1
+45,SS2,ICT,MCQ,What is the purpose of exception handling in programming?,To manage errors or unexpected conditions during execution,To increase screen brightness,To format a storage drive,To connect a computer to a printer,A,MEDIUM,APPROVED,1
+46,SS2,ICT,MCQ,Which project development approach delivers software in repeated short cycles?,Agile,Waterfall only,One-time deployment,Manual filing,A,MEDIUM,APPROVED,1
+47,SS2,ICT,MCQ,What is software testing intended to do?,Find defects and check whether software meets requirements,Guarantee that software can never fail,Replace software documentation,Increase the size of source code,A,EASY,APPROVED,1
+48,SS2,ICT,MCQ,What is e-governance?,Use of ICT to deliver government services and information,Use of computers only for gaming,A method of repairing computer hardware,A type of online advertisement,A,EASY,APPROVED,1
+49,SS2,ICT,MCQ,Which technology enables devices such as sensors and appliances to exchange data over networks?,Internet of Things (IoT),Optical character recognition,Desktop publishing,Magnetic storage,A,MEDIUM,APPROVED,1
+50,SS2,ICT,MCQ,What is one important ethical responsibility when using digital information?,Respecting copyright and acknowledging sources,Copying every work without permission,Sharing private data publicly,Using another person's account without consent,A,EASY,APPROVED,1

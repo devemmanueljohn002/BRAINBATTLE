@@ -1,0 +1,51 @@
+﻿question_number,class,subject,question_type,question,option_a,option_b,option_c,option_d,correct_answer,difficulty,status,marks
+1,SS 1,Mathematics,MCQ,"Evaluate 3,456 + 7,895.","11,251","11,351","11,451","11,551",B,EASY,APPROVED,1
+2,SS 1,Mathematics,MCQ,"Evaluate 12,000 - 4,785.","7,115","7,215","7,315","7,415",B,EASY,APPROVED,1
+3,SS 1,Mathematics,MCQ,Express 0.00056 in standard form.,5.6 × 10⁻³,5.6 × 10⁻⁴,5.6 × 10⁻⁵,56 × 10⁻⁴,B,MEDIUM,APPROVED,1
+4,SS 1,Mathematics,MCQ,Evaluate 2⁴ × 2³.,2⁷,2¹²,2¹,2⁹,A,MEDIUM,APPROVED,1
+5,SS 1,Mathematics,MCQ,Find the value of 3⁻².,−9,−1/9,1/9,9,C,MEDIUM,APPROVED,1
+6,SS 1,Mathematics,MCQ,Find the square root of 2025.,35,40,45,55,C,EASY,APPROVED,1
+7,SS 1,Mathematics,MCQ,Find the HCF of 42 and 56.,7,12,14,21,C,MEDIUM,APPROVED,1
+8,SS 1,Mathematics,MCQ,Find the LCM of 15 and 20.,30,45,60,75,C,MEDIUM,APPROVED,1
+9,SS 1,Mathematics,MCQ,Convert 10101₂ to base ten.,19,20,21,22,C,MEDIUM,APPROVED,1
+10,SS 1,Mathematics,MCQ,Convert 25₁₀ to base two.,10101₂,11001₂,11100₂,10011₂,B,MEDIUM,APPROVED,1
+11,SS 1,Mathematics,MCQ,Simplify 3/5 + 1/4.,4/9,7/10,17/20,19/20,C,MEDIUM,APPROVED,1
+12,SS 1,Mathematics,MCQ,Evaluate 7/8 - 1/3.,11/24,13/24,5/12,17/24,B,MEDIUM,APPROVED,1
+13,SS 1,Mathematics,MCQ,Express 0.625 as a fraction in its simplest form.,1/2,5/8,3/5,7/8,B,EASY,APPROVED,1
+14,SS 1,Mathematics,MCQ,Find 15% of 360.,45,50,54,60,C,EASY,APPROVED,1
+15,SS 1,Mathematics,MCQ,"An item bought for ₦4,000 is sold for ₦4,600. Find the percentage profit.",10%,12%,15%,20%,C,MEDIUM,APPROVED,1
+16,SS 1,Mathematics,MCQ,"A trader gives a 20% discount on an item marked ₦7,500. Find the selling price.","₦5,500","₦6,000","₦6,250","₦6,500",B,MEDIUM,APPROVED,1
+17,SS 1,Mathematics,MCQ,Share ₦840 in the ratio 3:4. What is the larger share?,₦360,₦420,₦480,₦560,C,MEDIUM,APPROVED,1
+18,SS 1,Mathematics,MCQ,"If 8 workers complete a job in 15 days, how long will 12 workers take at the same rate?",8 days,10 days,12 days,18 days,B,MEDIUM,APPROVED,1
+19,SS 1,Mathematics,MCQ,Simplify 4x + 7x - 3x.,8x,9x,11x,14x,A,EASY,APPROVED,1
+20,SS 1,Mathematics,MCQ,Expand 2(3x - 5).,6x - 5,6x - 10,5x - 10,6x + 10,B,EASY,APPROVED,1
+21,SS 1,Mathematics,MCQ,Factorise 6x + 12.,6(x + 2),3(2x + 1),2(3x + 12),6(x + 12),A,MEDIUM,APPROVED,1
+22,SS 1,Mathematics,MCQ,Solve 4x + 7 = 31.,5,6,7,8,B,EASY,APPROVED,1
+23,SS 1,Mathematics,MCQ,Solve 5(x - 2) = 20.,4,5,6,8,B,MEDIUM,APPROVED,1
+24,SS 1,Mathematics,MCQ,"If y = 3x - 2, find y when x = 5.",11,12,13,15,C,EASY,APPROVED,1
+25,SS 1,Mathematics,MCQ,Find the value of 2a² - b when a = 3 and b = 4.,10,12,14,18,C,MEDIUM,APPROVED,1
+26,SS 1,Mathematics,MCQ,Solve the inequality 2x + 3 > 11.,x > 4,x < 4,x > 7,x < 7,A,MEDIUM,APPROVED,1
+27,SS 1,Mathematics,MCQ,"Find the gradient of the line joining (2, 3) and (4, 7).",1,2,3,4,B,MEDIUM,APPROVED,1
+28,SS 1,Mathematics,MCQ,Which of these is a linear equation?,x² + 2 = 0,3x - 5 = 7,xy = 10,1/x = 4,B,EASY,APPROVED,1
+29,SS 1,Mathematics,MCQ,The sum of angles in a triangle is:,90°,180°,270°,360°,B,EASY,APPROVED,1
+30,SS 1,Mathematics,MCQ,Two angles of a triangle are 48° and 67°. Find the third angle.,55°,60°,65°,75°,C,MEDIUM,APPROVED,1
+31,SS 1,Mathematics,MCQ,The sum of the interior angles of a pentagon is:,360°,450°,540°,720°,C,MEDIUM,APPROVED,1
+32,SS 1,Mathematics,MCQ,Each exterior angle of a regular hexagon is:,45°,60°,90°,120°,B,MEDIUM,APPROVED,1
+33,SS 1,Mathematics,MCQ,A right-angled triangle has perpendicular sides 9 cm and 12 cm. Find the hypotenuse.,13 cm,14 cm,15 cm,16 cm,C,MEDIUM,APPROVED,1
+34,SS 1,Mathematics,MCQ,Find the area of a circle of radius 7 cm. Use π = 22/7.,44 cm²,77 cm²,154 cm²,308 cm²,C,MEDIUM,APPROVED,1
+35,SS 1,Mathematics,MCQ,Find the circumference of a circle with radius 14 cm. Use π = 22/7.,44 cm,66 cm,88 cm,176 cm,C,EASY,APPROVED,1
+36,SS 1,Mathematics,MCQ,Find the area of a parallelogram with base 12 cm and height 7 cm.,19 cm²,38 cm²,84 cm²,96 cm²,C,EASY,APPROVED,1
+37,SS 1,Mathematics,MCQ,Find the volume of a cylinder with radius 3 cm and height 7 cm. Use π = 22/7.,99 cm³,154 cm³,198 cm³,297 cm³,C,MEDIUM,APPROVED,1
+38,SS 1,Mathematics,MCQ,Convert 72 km/h to metres per second.,15 m/s,18 m/s,20 m/s,25 m/s,C,MEDIUM,APPROVED,1
+39,SS 1,Mathematics,MCQ,A bus travels 180 km in 2.5 hours. Find its average speed.,60 km/h,65 km/h,72 km/h,75 km/h,C,EASY,APPROVED,1
+40,SS 1,Mathematics,MCQ,"Find the mean of 4, 6, 8, 10 and 12.",6,7,8,9,C,EASY,APPROVED,1
+41,SS 1,Mathematics,MCQ,"Find the median of 3, 5, 8, 9, 12, 14 and 16.",8,9,10,12,B,EASY,APPROVED,1
+42,SS 1,Mathematics,MCQ,"Find the range of 7, 11, 15, 18 and 23.",12,14,16,18,C,EASY,APPROVED,1
+43,SS 1,Mathematics,MCQ,A fair die is thrown once. Find the probability of getting a number greater than 4.,1/6,1/3,1/2,2/3,B,MEDIUM,APPROVED,1
+44,SS 1,Mathematics,MCQ,"A bag contains 5 red, 3 blue and 2 green balls. Find the probability of selecting a green ball.",1/10,1/5,3/10,1/2,B,MEDIUM,APPROVED,1
+45,SS 1,Mathematics,MCQ,"Find the simple interest on ₦8,000 at 5% per annum for 3 years.",₦800,"₦1,000","₦1,200","₦1,500",C,MEDIUM,APPROVED,1
+46,SS 1,Mathematics,MCQ,"A sum of ₦10,000 is invested at 10% compound interest per annum for 2 years. Find the amount.","₦11,000","₦12,000","₦12,100","₦12,200",C,MEDIUM,APPROVED,1
+47,SS 1,Mathematics,MCQ,"If 4 exercise books cost ₦1,200, how much will 9 books cost at the same rate?","₦2,400","₦2,500","₦2,700","₦3,000",C,EASY,APPROVED,1
+48,SS 1,Mathematics,MCQ,The bearing of a point due south is:,000°,090°,180°,270°,C,EASY,APPROVED,1
+49,SS 1,Mathematics,MCQ,"A map has a scale of 1:100,000. What actual distance is represented by 6 cm?",0.6 km,3 km,6 km,60 km,C,MEDIUM,APPROVED,1
+50,SS 1,Mathematics,MCQ,"If the first term of an arithmetic sequence is 4 and the common difference is 3, what is the 10th term?",28,30,31,34,C,MEDIUM,APPROVED,1

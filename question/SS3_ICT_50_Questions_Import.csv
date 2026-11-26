@@ -1,0 +1,51 @@
+﻿question_number,class,subject,question_type,question,option_a,option_b,option_c,option_d,correct_answer,difficulty,status,marks
+1,SS3,ICT,MCQ,Which computer architecture uses a single shared memory for instructions and data?,Von Neumann architecture,Harvard architecture,Distributed architecture,Client-server architecture,A,MEDIUM,APPROVED,1
+2,SS3,ICT,MCQ,What is pipelining in CPU design?,Overlapping stages of instruction execution,Storing files in cloud storage,Connecting several monitors,Compressing program code,A,MEDIUM,APPROVED,1
+3,SS3,ICT,MCQ,Which factor most directly affects the number of instructions a CPU can process per clock cycle?,Instruction-level parallelism,Monitor size,Keyboard layout,Printer resolution,A,MEDIUM,APPROVED,1
+4,SS3,ICT,MCQ,What is the purpose of an interrupt in a computer system?,To signal the CPU that an event needs attention,To permanently delete a file,To increase hard disk capacity,To format a spreadsheet,A,MEDIUM,APPROVED,1
+5,SS3,ICT,MCQ,Which memory is typically the fastest among these?,CPU register,Hard disk,Optical disc,USB flash drive,A,EASY,APPROVED,1
+6,SS3,ICT,MCQ,What is the main benefit of using cache memory?,Reducing average memory access time,Increasing screen resolution,Providing permanent file backup,Replacing the operating system,A,EASY,APPROVED,1
+7,SS3,ICT,MCQ,What does the term multicore processor mean?,A processor containing two or more processing cores,A processor with multiple monitors,A computer with many keyboards,A processor that stores files on several disks,A,EASY,APPROVED,1
+8,SS3,ICT,MCQ,Which number system is commonly used as a compact representation of binary values?,Hexadecimal,Decimal only,Roman numerals,Base 3,A,EASY,APPROVED,1
+9,SS3,ICT,MCQ,What is the result of binary addition 1011 + 0101?,10000,1110,1100,10101,A,MEDIUM,APPROVED,1
+10,SS3,ICT,MCQ,What is the two's complement representation mainly used for?,Representing signed binary integers,Compressing audio files,Naming database tables,Creating web page layouts,A,MEDIUM,APPROVED,1
+11,SS3,ICT,MCQ,Which logic gate produces 1 when its inputs are different?,XOR,AND,NOR,XNOR,A,MEDIUM,APPROVED,1
+12,SS3,ICT,MCQ,"According to De Morgan's law, the complement of A AND B is equivalent to what?",NOT A OR NOT B,NOT A AND NOT B,A OR B,A AND NOT B,A,MEDIUM,APPROVED,1
+13,SS3,ICT,MCQ,What is the main purpose of an assembler?,To translate assembly language into machine code,To design database tables,To browse web pages,To scan for network cables,A,MEDIUM,APPROVED,1
+14,SS3,ICT,MCQ,Which language is generally considered a high-level programming language?,Python,Machine code,Binary opcodes,Microcode,A,EASY,APPROVED,1
+15,SS3,ICT,MCQ,What is the purpose of a compiler?,"To translate source code into another form, often machine code",To manage network passwords,To repair damaged hardware,To create a physical backup drive,A,EASY,APPROVED,1
+16,SS3,ICT,MCQ,What is the difference between a compiler and an interpreter?,"A compiler translates a program before execution, while an interpreter executes instructions through interpretation",A compiler is hardware and an interpreter is a cable,They are both storage devices,An interpreter only creates images,A,MEDIUM,APPROVED,1
+17,SS3,ICT,MCQ,Which programming concept allows a class to inherit properties and methods from another class?,Inheritance,Iteration,Encapsulation only,Compilation,A,MEDIUM,APPROVED,1
+18,SS3,ICT,MCQ,What is polymorphism in object-oriented programming?,The ability to use a common interface with different underlying implementations,The process of deleting objects,The conversion of decimal to binary,The storage of files in folders,A,MEDIUM,APPROVED,1
+19,SS3,ICT,MCQ,What is encapsulation in object-oriented programming?,Bundling data and methods while controlling access to internal state,Repeating a loop forever,Connecting two databases,Converting source code into HTML,A,MEDIUM,APPROVED,1
+20,SS3,ICT,MCQ,"Which data structure follows the Last-In, First-Out principle?",Stack,Queue,Tree,Graph,A,EASY,APPROVED,1
+21,SS3,ICT,MCQ,"Which data structure follows the First-In, First-Out principle?",Queue,Stack,Heap,Binary search tree,A,EASY,APPROVED,1
+22,SS3,ICT,MCQ,What is the average time complexity of binary search on a sorted array?,O(log n),O(n),O(n²),O(1) in every case,A,MEDIUM,APPROVED,1
+23,SS3,ICT,MCQ,Which sorting algorithm repeatedly selects the smallest remaining element and places it in order?,Selection sort,Bubble sort,Merge sort,Quick sort,A,MEDIUM,APPROVED,1
+24,SS3,ICT,MCQ,What is the worst-case time complexity of bubble sort?,O(n²),O(log n),O(n),O(1),A,MEDIUM,APPROVED,1
+25,SS3,ICT,MCQ,What is recursion in programming?,A function calling itself to solve smaller parts of a problem,A program running without instructions,A database copying itself,A computer restarting repeatedly,A,EASY,APPROVED,1
+26,SS3,ICT,MCQ,What is the purpose of an API?,To define how software components communicate,To increase RAM capacity,To format computer disks,To replace a network router,A,EASY,APPROVED,1
+27,SS3,ICT,MCQ,Which HTTP method is commonly used to retrieve a resource?,GET,POST,DELETE,PATCH,A,EASY,APPROVED,1
+28,SS3,ICT,MCQ,Which HTTP status code usually indicates that a requested resource was not found?,404,200,301,500,A,EASY,APPROVED,1
+29,SS3,ICT,MCQ,What is REST in web services?,An architectural style for designing networked APIs,A programming language for spreadsheets,A computer storage format,A type of encryption key,A,MEDIUM,APPROVED,1
+30,SS3,ICT,MCQ,What is the purpose of a database index?,To speed up data retrieval for suitable queries,To encrypt all database records,To replace database backups,To prevent every duplicate value,A,MEDIUM,APPROVED,1
+31,SS3,ICT,MCQ,Which ACID property ensures that a transaction is completed fully or not at all?,Atomicity,Consistency,Isolation,Durability,A,MEDIUM,APPROVED,1
+32,SS3,ICT,MCQ,What is a database deadlock?,A situation where transactions wait indefinitely for resources held by one another,A database that has no tables,A successful backup operation,A method for sorting records,A,MEDIUM,APPROVED,1
+33,SS3,ICT,MCQ,What is the purpose of a database transaction log?,To record changes and support recovery,To display website advertisements,To increase network bandwidth,To store user interface colours,A,MEDIUM,APPROVED,1
+34,SS3,ICT,MCQ,"Which normal form requires that every non-key attribute depend on the whole candidate key, not just part of it?",Second Normal Form (2NF),First Normal Form (1NF),Third Normal Form (3NF),Fourth Normal Form (4NF),A,MEDIUM,APPROVED,1
+35,SS3,ICT,MCQ,"Which OSI layer is responsible for encryption, data translation and compression functions?",Presentation,Network,Physical,Data Link,A,MEDIUM,APPROVED,1
+36,SS3,ICT,MCQ,"Which transport protocol provides reliable, connection-oriented delivery?",TCP,UDP,IP,ARP,A,EASY,APPROVED,1
+37,SS3,ICT,MCQ,What is the main advantage of UDP over TCP for suitable applications?,Lower overhead and no connection setup,Guaranteed delivery and ordering,Built-in retransmission of every lost packet,Automatic encryption of all data,A,MEDIUM,APPROVED,1
+38,SS3,ICT,MCQ,What is subnetting used for?,Dividing a larger IP network into smaller logical networks,Increasing the physical length of a cable,Converting domain names into email addresses,Encrypting files on a server,A,MEDIUM,APPROVED,1
+39,SS3,ICT,MCQ,What does CIDR notation /24 indicate?,A network prefix length of 24 bits,A 24-bit password,A network with exactly 24 devices,A 24 megabyte data limit,A,MEDIUM,APPROVED,1
+40,SS3,ICT,MCQ,Which security model grants access based on a user's assigned role?,Role-Based Access Control (RBAC),Open access control,Physical access only,Anonymous authentication,A,MEDIUM,APPROVED,1
+41,SS3,ICT,MCQ,What is a zero-day vulnerability?,A security flaw exploited before a fix is available or widely deployed,A password that expires after one day,A computer with no clock,A backup created every zero days,A,MEDIUM,APPROVED,1
+42,SS3,ICT,MCQ,What is the primary purpose of a cryptographic hash function?,To produce a fixed-length digest from input data,To decrypt any ciphertext without a key,To compress files so they can always be restored,To route packets across networks,A,MEDIUM,APPROVED,1
+43,SS3,ICT,MCQ,Which statement best describes asymmetric cryptography?,It uses a related public key and private key pair,It uses one shared secret key only,It does not use keys,It is only used for image editing,A,MEDIUM,APPROVED,1
+44,SS3,ICT,MCQ,What is a digital signature mainly used to provide?,"Authentication, integrity and evidence of origin",Guaranteed secrecy of every message,Unlimited storage capacity,Automatic removal of malware,A,MEDIUM,APPROVED,1
+45,SS3,ICT,MCQ,What is the purpose of a penetration test?,To assess security by safely simulating authorized attacks,To test a computer's screen brightness,To measure printer speed,To create user passwords automatically,A,EASY,APPROVED,1
+46,SS3,ICT,MCQ,What is the principle of defense in depth?,Using multiple layers of security controls,Relying on one password for every system,Removing all network restrictions,Allowing all users administrator rights,A,MEDIUM,APPROVED,1
+47,SS3,ICT,MCQ,Which disaster recovery measure provides a standby system that can take over quickly?,Failover system,Screen saver,Disk cleanup,Mail merge,A,MEDIUM,APPROVED,1
+48,SS3,ICT,MCQ,What does RTO mean in disaster recovery planning?,Recovery Time Objective,Remote Transfer Option,Random Test Output,Record Tracking Order,A,MEDIUM,APPROVED,1
+49,SS3,ICT,MCQ,What is the main purpose of data anonymization?,Reducing the ability to identify individuals from a dataset,Increasing the size of a database,Making data publicly searchable,Replacing all data with passwords,A,MEDIUM,APPROVED,1
+50,SS3,ICT,MCQ,Which principle of digital ethics requires people to respect ownership of creative work?,Intellectual property rights,Open disclosure of passwords,Unauthorized access,Data duplication,A,EASY,APPROVED,1

@@ -1,0 +1,51 @@
+﻿question_number,class,subject,question_type,question,option_a,option_b,option_c,option_d,correct_answer,difficulty,status,marks
+1,SS 2,Mathematics,MCQ,"Evaluate 15,678 + 9,845.","24,423","25,423","25,523","26,523",C,EASY,APPROVED,1
+2,SS 2,Mathematics,MCQ,"Evaluate 20,000 - 8,765.","10,235","11,235","12,235","13,235",B,EASY,APPROVED,1
+3,SS 2,Mathematics,MCQ,Express 0.000072 in standard form.,7.2 × 10⁻⁴,7.2 × 10⁻⁵,7.2 × 10⁻⁶,72 × 10⁻⁵,B,MEDIUM,APPROVED,1
+4,SS 2,Mathematics,MCQ,Simplify 3⁴ × 3².,3⁶,3⁸,3²,3¹²,A,MEDIUM,APPROVED,1
+5,SS 2,Mathematics,MCQ,Evaluate 2⁻³.,−8,−1/8,1/8,8,C,MEDIUM,APPROVED,1
+6,SS 2,Mathematics,MCQ,Find the cube root of 216.,4,5,6,8,C,EASY,APPROVED,1
+7,SS 2,Mathematics,MCQ,Find the HCF of 72 and 90.,9,12,18,24,C,MEDIUM,APPROVED,1
+8,SS 2,Mathematics,MCQ,Find the LCM of 18 and 24.,48,60,72,96,C,MEDIUM,APPROVED,1
+9,SS 2,Mathematics,MCQ,Convert 11011₂ to base ten.,25,26,27,28,C,MEDIUM,APPROVED,1
+10,SS 2,Mathematics,MCQ,Convert 31₁₀ to base two.,11101₂,11110₂,11111₂,11011₂,C,MEDIUM,APPROVED,1
+11,SS 2,Mathematics,MCQ,Simplify 5/6 + 3/4.,17/12,19/12,7/10,8/12,B,MEDIUM,APPROVED,1
+12,SS 2,Mathematics,MCQ,Evaluate 7/9 - 1/3.,2/9,4/9,5/9,6/9,B,MEDIUM,APPROVED,1
+13,SS 2,Mathematics,MCQ,Express 0.875 as a fraction in its simplest form.,5/8,6/8,7/8,8/9,C,EASY,APPROVED,1
+14,SS 2,Mathematics,MCQ,Find 12.5% of 640.,60,70,80,90,C,MEDIUM,APPROVED,1
+15,SS 2,Mathematics,MCQ,"An item bought for ₦12,000 is sold for ₦10,200. Find the percentage loss.",10%,12%,15%,18%,C,MEDIUM,APPROVED,1
+16,SS 2,Mathematics,MCQ,"An item marked ₦9,000 is sold at a discount of 15%. Find the selling price.","₦7,350","₦7,500","₦7,650","₦8,150",C,MEDIUM,APPROVED,1
+17,SS 2,Mathematics,MCQ,"Share ₦1,500 in the ratio 2:3. What is the smaller share?",₦500,₦600,₦750,₦900,B,EASY,APPROVED,1
+18,SS 2,Mathematics,MCQ,"If 15 workers complete a job in 8 days, how many days will 10 workers take at the same rate?",10 days,12 days,14 days,16 days,B,MEDIUM,APPROVED,1
+19,SS 2,Mathematics,MCQ,Simplify 7a - 3b + 2a + 5b.,9a + 2b,9a - 2b,5a + 8b,9ab,A,EASY,APPROVED,1
+20,SS 2,Mathematics,MCQ,Expand (x + 4)(x + 3).,x² + 7x + 12,x² + 12x + 7,x² + x + 12,x² + 7,A,MEDIUM,APPROVED,1
+21,SS 2,Mathematics,MCQ,Factorise x² + 7x + 12.,(x + 2)(x + 6),(x + 3)(x + 4),(x - 3)(x - 4),(x + 1)(x + 12),B,MEDIUM,APPROVED,1
+22,SS 2,Mathematics,MCQ,Solve 3x - 8 = 16.,6,7,8,9,C,EASY,APPROVED,1
+23,SS 2,Mathematics,MCQ,Solve 2(x + 5) = 3x - 4.,10,12,14,16,C,MEDIUM,APPROVED,1
+24,SS 2,Mathematics,MCQ,Solve simultaneously: x + y = 9 and x - y = 3. Find y.,2,3,4,6,B,MEDIUM,APPROVED,1
+25,SS 2,Mathematics,MCQ,"If y varies inversely as x and y = 12 when x = 2, find y when x = 8.",2,3,4,6,B,MEDIUM,APPROVED,1
+26,SS 2,Mathematics,MCQ,Solve the inequality 5x - 2 ≤ 13.,x ≤ 3,x ≤ 5,x ≥ 3,x ≥ 5,A,MEDIUM,APPROVED,1
+27,SS 2,Mathematics,MCQ,Find the gradient of the line y = 4x - 7.,−7,4,7,11,B,EASY,APPROVED,1
+28,SS 2,Mathematics,MCQ,"Find the midpoint of the points (2, 4) and (6, 8).","(3, 5)","(4, 6)","(5, 6)","(8, 12)",B,MEDIUM,APPROVED,1
+29,SS 2,Mathematics,MCQ,The sum of the interior angles of a hexagon is:,540°,600°,720°,900°,C,MEDIUM,APPROVED,1
+30,SS 2,Mathematics,MCQ,Each interior angle of a regular octagon is:,120°,125°,135°,140°,C,MEDIUM,APPROVED,1
+31,SS 2,Mathematics,MCQ,"A triangle has sides 7 cm, 24 cm and 25 cm. What type of triangle is it?",Equilateral,Isosceles,Right-angled,Obtuse-angled,C,MEDIUM,APPROVED,1
+32,SS 2,Mathematics,MCQ,Find the area of a trapezium with parallel sides 10 cm and 16 cm and height 8 cm.,96 cm²,100 cm²,104 cm²,208 cm²,C,MEDIUM,APPROVED,1
+33,SS 2,Mathematics,MCQ,Find the volume of a cone with radius 3 cm and height 7 cm. Use π = 22/7.,44 cm³,66 cm³,88 cm³,99 cm³,B,MEDIUM,APPROVED,1
+34,SS 2,Mathematics,MCQ,Find the total surface area of a cuboid measuring 4 cm × 3 cm × 2 cm.,24 cm²,36 cm²,52 cm²,60 cm²,C,MEDIUM,APPROVED,1
+35,SS 2,Mathematics,MCQ,Find the arc length of a quarter circle with radius 14 cm. Use π = 22/7.,11 cm,22 cm,44 cm,88 cm,B,MEDIUM,APPROVED,1
+36,SS 2,Mathematics,MCQ,Convert 90 km/h to metres per second.,20 m/s,25 m/s,30 m/s,35 m/s,B,MEDIUM,APPROVED,1
+37,SS 2,Mathematics,MCQ,A train travels 315 km in 3.5 hours. Find its average speed.,80 km/h,85 km/h,90 km/h,95 km/h,C,EASY,APPROVED,1
+38,SS 2,Mathematics,MCQ,"Find the mean of 12, 15, 18, 20 and 25.",16,18,19,20,B,EASY,APPROVED,1
+39,SS 2,Mathematics,MCQ,"Find the median of 4, 7, 9, 11, 13, 16, 20 and 22.",10,11,12,13,C,MEDIUM,APPROVED,1
+40,SS 2,Mathematics,MCQ,"Find the range of 18, 24, 31, 35 and 42.",18,22,24,26,B,EASY,APPROVED,1
+41,SS 2,Mathematics,MCQ,A fair die is rolled once. What is the probability of getting a prime number?,1/6,1/3,1/2,2/3,C,MEDIUM,APPROVED,1
+42,SS 2,Mathematics,MCQ,"A box contains 6 white, 4 black and 5 red counters. Find the probability of selecting a black counter.",2/5,4/15,1/3,5/15,B,MEDIUM,APPROVED,1
+43,SS 2,Mathematics,MCQ,"Find the simple interest on ₦15,000 at 8% per annum for 2 years.","₦1,200","₦2,000","₦2,400","₦3,000",C,MEDIUM,APPROVED,1
+44,SS 2,Mathematics,MCQ,"Find the amount on ₦10,000 invested at 10% compound interest per annum for 2 years.","₦11,000","₦12,000","₦12,100","₦12,200",C,MEDIUM,APPROVED,1
+45,SS 2,Mathematics,MCQ,"If 5 pens cost ₦1,750, how much will 12 pens cost at the same rate?","₦3,500","₦4,000","₦4,200","₦4,500",C,EASY,APPROVED,1
+46,SS 2,Mathematics,MCQ,"The bearing of a point due north-west, measured clockwise from north, is:",045°,135°,225°,315°,D,MEDIUM,APPROVED,1
+47,SS 2,Mathematics,MCQ,"A map scale is 1:250,000. What actual distance is represented by 8 cm?",2 km,10 km,20 km,25 km,C,MEDIUM,APPROVED,1
+48,SS 2,Mathematics,MCQ,The first term of an arithmetic progression is 7 and the common difference is 4. Find the 12th term.,47,49,51,55,C,MEDIUM,APPROVED,1
+49,SS 2,Mathematics,MCQ,"Find the 5th term of the geometric sequence 2, 6, 18, ...",54,108,162,486,C,MEDIUM,APPROVED,1
+50,SS 2,Mathematics,MCQ,Solve x² - 5x + 6 = 0. What is the smaller value of x?,1,2,3,6,B,MEDIUM,APPROVED,1

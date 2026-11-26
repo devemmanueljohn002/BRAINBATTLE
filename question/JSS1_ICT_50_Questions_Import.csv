@@ -1,0 +1,51 @@
+﻿question_number,class,subject,question_type,question,option_a,option_b,option_c,option_d,correct_answer,difficulty,status,marks
+1,JSS 1,ICT,MCQ,What does ICT stand for?,Information and Communication Technology,International Computer Training,Internet and Telephone Connection,Information Control Technique,A,EASY,APPROVED,1
+2,JSS 1,ICT,MCQ,Which of these is a computer?,A calculator only,An electronic device that processes data,A television remote,A wall clock,B,EASY,APPROVED,1
+3,JSS 1,ICT,MCQ,What is data?,Processed information,A computer program,Raw facts and figures,A storage device,C,EASY,APPROVED,1
+4,JSS 1,ICT,MCQ,What is information?,Unprocessed facts,Data that has been processed into a meaningful form,A computer virus,A keyboard command,B,EASY,APPROVED,1
+5,JSS 1,ICT,MCQ,Which part of a computer is commonly called its brain?,Monitor,Keyboard,CPU,Mouse,C,EASY,APPROVED,1
+6,JSS 1,ICT,MCQ,Which device is used to type letters and numbers into a computer?,Printer,Keyboard,Speaker,Monitor,B,EASY,APPROVED,1
+7,JSS 1,ICT,MCQ,Which device displays information from a computer?,Monitor,Scanner,Microphone,Mouse,A,EASY,APPROVED,1
+8,JSS 1,ICT,MCQ,"Which device is used to point, click and select items on a screen?",Printer,Mouse,Speaker,Projector,B,EASY,APPROVED,1
+9,JSS 1,ICT,MCQ,Which of these is an output device?,Keyboard,Mouse,Scanner,Printer,D,EASY,APPROVED,1
+10,JSS 1,ICT,MCQ,Which of these is an input device?,Monitor,Speaker,Microphone,Projector,C,EASY,APPROVED,1
+11,JSS 1,ICT,MCQ,What is the full meaning of CPU?,Central Processing Unit,Computer Personal Unit,Central Program Utility,Control Processing User,A,EASY,APPROVED,1
+12,JSS 1,ICT,MCQ,Which computer component temporarily holds data currently being used?,ROM,RAM,DVD,Flash drive,B,MEDIUM,APPROVED,1
+13,JSS 1,ICT,MCQ,Which of these is a storage device?,Flash drive,Monitor,Mouse,Speaker,A,EASY,APPROVED,1
+14,JSS 1,ICT,MCQ,Which device produces a hard copy of a document?,Scanner,Printer,Keyboard,Webcam,B,EASY,APPROVED,1
+15,JSS 1,ICT,MCQ,Which device converts a paper picture or document into a digital image?,Speaker,Projector,Scanner,Mouse,C,EASY,APPROVED,1
+16,JSS 1,ICT,MCQ,Which of these is system software?,Microsoft Word,A computer game,Windows operating system,A digital photograph,C,MEDIUM,APPROVED,1
+17,JSS 1,ICT,MCQ,Which of these is application software?,Windows,Linux,Microsoft Word,Device driver,C,EASY,APPROVED,1
+18,JSS 1,ICT,MCQ,What is the main function of an operating system?,To manage computer hardware and software resources,To print documents only,To browse the internet only,To protect the monitor,A,MEDIUM,APPROVED,1
+19,JSS 1,ICT,MCQ,Which of these is an example of an operating system?,Microsoft Excel,Windows,Google Chrome,PowerPoint,B,EASY,APPROVED,1
+20,JSS 1,ICT,MCQ,What is a computer file?,A physical computer desk,A named collection of stored data,A type of keyboard,A computer cable,B,MEDIUM,APPROVED,1
+21,JSS 1,ICT,MCQ,Which key is commonly used to create a space between words?,Enter,Shift,Spacebar,Esc,C,EASY,APPROVED,1
+22,JSS 1,ICT,MCQ,Which key is used to move to a new line when typing?,Enter,Caps Lock,Tab,Ctrl,A,EASY,APPROVED,1
+23,JSS 1,ICT,MCQ,Which key removes characters to the left of the cursor?,Delete,Backspace,Insert,Home,B,EASY,APPROVED,1
+24,JSS 1,ICT,MCQ,Which keyboard key is used with another key to type capital letters temporarily?,Alt,Ctrl,Shift,Esc,C,EASY,APPROVED,1
+25,JSS 1,ICT,MCQ,What does the shortcut Ctrl + C usually do?,Paste,Copy,Cut,Save,B,MEDIUM,APPROVED,1
+26,JSS 1,ICT,MCQ,What does the shortcut Ctrl + V usually do?,Copy,Undo,Paste,Print,C,MEDIUM,APPROVED,1
+27,JSS 1,ICT,MCQ,What does the shortcut Ctrl + S usually do?,Save,Select all,Search,Shut down,A,MEDIUM,APPROVED,1
+28,JSS 1,ICT,MCQ,Which program is mainly used for typing and editing documents?,Microsoft Word,Microsoft Excel,Paint,Calculator,A,EASY,APPROVED,1
+29,JSS 1,ICT,MCQ,Which program is mainly used to perform calculations in rows and columns?,PowerPoint,Microsoft Excel,Notepad,Media Player,B,EASY,APPROVED,1
+30,JSS 1,ICT,MCQ,Which program is commonly used to create slide presentations?,Microsoft Access,Microsoft Word,Microsoft PowerPoint,Paint,C,EASY,APPROVED,1
+31,JSS 1,ICT,MCQ,What is the internet?,A single computer,A worldwide network of connected computer networks,A type of printer,A computer keyboard,B,EASY,APPROVED,1
+32,JSS 1,ICT,MCQ,Which software is used to access websites?,Web browser,Calculator,Word processor,File compressor,A,EASY,APPROVED,1
+33,JSS 1,ICT,MCQ,Which of these is a web browser?,Microsoft Excel,Google Chrome,Windows Explorer,Paint,B,EASY,APPROVED,1
+34,JSS 1,ICT,MCQ,What does URL stand for?,Uniform Resource Locator,Universal Reading Link,United Resource Language,User Reference List,A,MEDIUM,APPROVED,1
+35,JSS 1,ICT,MCQ,Which service is used to send and receive electronic messages over the internet?,Email,Printing,Scanning,Formatting,A,EASY,APPROVED,1
+36,JSS 1,ICT,MCQ,Which symbol is normally found in an email address?,#,&,@,%,C,EASY,APPROVED,1
+37,JSS 1,ICT,MCQ,What is a strong password?,Your first name only,123456,"A long, difficult-to-guess combination of characters",The word password,C,EASY,APPROVED,1
+38,JSS 1,ICT,MCQ,Which action helps protect a computer from malware?,Opening every unknown attachment,Installing and updating trusted security software,Sharing your password,Ignoring security warnings,B,MEDIUM,APPROVED,1
+39,JSS 1,ICT,MCQ,What is a computer virus?,A useful computer cable,A malicious program that can harm or disrupt a computer,A type of monitor,A storage folder,B,EASY,APPROVED,1
+40,JSS 1,ICT,MCQ,What should you do before opening an email attachment from an unknown sender?,Open it immediately,Forward it to everyone,Avoid opening it and verify the sender,Download it to a shared computer,C,MEDIUM,APPROVED,1
+41,JSS 1,ICT,MCQ,What is cyberbullying?,Using a computer for homework,Bullying or harassing someone through digital technology,Repairing a computer,Learning to type,B,EASY,APPROVED,1
+42,JSS 1,ICT,MCQ,Which information should you avoid sharing publicly online?,A general school subject,Your password and private personal details,A public news headline,A general learning question,B,EASY,APPROVED,1
+43,JSS 1,ICT,MCQ,What is a computer network?,A group of connected computers and devices that can share resources,A computer desk,A single software application,A printed document,A,MEDIUM,APPROVED,1
+44,JSS 1,ICT,MCQ,What does Wi-Fi allow devices to do?,Connect to a network wirelessly,Print without ink,Increase screen brightness,Store paper files,A,EASY,APPROVED,1
+45,JSS 1,ICT,MCQ,Which device commonly connects a home or school network to the internet?,Router,Keyboard,Scanner,Webcam,A,MEDIUM,APPROVED,1
+46,JSS 1,ICT,MCQ,What is a backup?,A duplicate copy of data kept in case the original is lost,A computer game,A type of virus,A screen saver,A,EASY,APPROVED,1
+47,JSS 1,ICT,MCQ,Which unit is commonly used to measure digital file size?,Metre,Kilogram,Byte,Litre,C,EASY,APPROVED,1
+48,JSS 1,ICT,MCQ,How many bits make one byte?,2,4,8,16,C,MEDIUM,APPROVED,1
+49,JSS 1,ICT,MCQ,Which of these is a good computer laboratory safety practice?,Eating beside the computer,Keeping liquids away from computers,Pulling cables by their wires,Touching electrical sockets with wet hands,B,EASY,APPROVED,1
+50,JSS 1,ICT,MCQ,What should you do when you finish using a shared computer?,Leave your accounts signed in,Share your password with the next user,Log out of your accounts and shut down as instructed,Delete other users' files,C,EASY,APPROVED,1

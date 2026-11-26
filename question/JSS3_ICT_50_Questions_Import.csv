@@ -1,0 +1,51 @@
+﻿question_number,class,subject,question_type,question,option_a,option_b,option_c,option_d,correct_answer,difficulty,status,marks
+1,JSS 3,ICT,MCQ,Which device is used to enter printed text and pictures into a computer?,Scanner,Plotter,Speaker,Projector,A,EASY,APPROVED,1
+2,JSS 3,ICT,MCQ,What does CPU stand for?,Central Processing Unit,Computer Personal Unit,Central Program Utility,Control Processing User,A,EASY,APPROVED,1
+3,JSS 3,ICT,MCQ,Which memory loses its contents when power is switched off?,ROM,RAM,Flash memory,Hard disk,B,EASY,APPROVED,1
+4,JSS 3,ICT,MCQ,Which of these is an example of system software?,Microsoft Word,CorelDRAW,Windows,PowerPoint,C,EASY,APPROVED,1
+5,JSS 3,ICT,MCQ,What is the main function of an operating system?,To manage computer hardware and software,To print documents only,To browse the internet only,To create pictures only,A,EASY,APPROVED,1
+6,JSS 3,ICT,MCQ,Which unit is commonly used to measure processor speed?,Kilogram,Gigahertz,Litre,Pixel,B,EASY,APPROVED,1
+7,JSS 3,ICT,MCQ,Which of the following is an output device?,Mouse,Keyboard,Monitor,Scanner,C,EASY,APPROVED,1
+8,JSS 3,ICT,MCQ,What is the full meaning of ICT?,Information and Communication Technology,Internet Computer Transfer,International Communication Tool,Information Control Technique,A,EASY,APPROVED,1
+9,JSS 3,ICT,MCQ,Which storage device uses flash memory and connects through a USB port?,USB flash drive,DVD player,Floppy disk,Plotter,A,EASY,APPROVED,1
+10,JSS 3,ICT,MCQ,Which key is commonly used to move the cursor to a new line?,Shift,Enter,Caps Lock,Esc,B,EASY,APPROVED,1
+11,JSS 3,ICT,MCQ,What is a computer virus?,A useful computer component,A malicious program that can harm files or systems,A type of monitor,A computer language,B,EASY,APPROVED,1
+12,JSS 3,ICT,MCQ,Which action helps protect a computer from malware?,Opening every attachment,Disabling security updates,Using updated antivirus software,Sharing passwords,C,EASY,APPROVED,1
+13,JSS 3,ICT,MCQ,What does URL mean?,Uniform Resource Locator,Universal Reading Link,United Resource Language,User Record Location,A,MEDIUM,APPROVED,1
+14,JSS 3,ICT,MCQ,Which protocol is commonly used to transfer web pages securely?,HTTP,HTTPS,FTP,SMTP,B,MEDIUM,APPROVED,1
+15,JSS 3,ICT,MCQ,What is the purpose of a firewall?,To cool the processor,To control network traffic and block unauthorized access,To increase screen brightness,To store music,B,MEDIUM,APPROVED,1
+16,JSS 3,ICT,MCQ,Which network covers a small area such as an office or school building?,WAN,MAN,LAN,PAN,C,EASY,APPROVED,1
+17,JSS 3,ICT,MCQ,What does WAN stand for?,Wide Area Network,Wireless Access Number,Web Area Node,World Application Network,A,EASY,APPROVED,1
+18,JSS 3,ICT,MCQ,Which device directs data between different networks?,Router,Keyboard,Printer,Microphone,A,EASY,APPROVED,1
+19,JSS 3,ICT,MCQ,What is the main purpose of a database?,To organize and store related data,To increase computer volume,To display animations only,To protect a screen,A,EASY,APPROVED,1
+20,JSS 3,ICT,MCQ,"In a database table, a record is best described as what?",A complete set of related fields about one item,A single database column heading,A computer virus,A type of printer,A,MEDIUM,APPROVED,1
+21,JSS 3,ICT,MCQ,Which spreadsheet symbol usually begins a formula?,+,=,#,&,B,EASY,APPROVED,1
+22,JSS 3,ICT,MCQ,"In a spreadsheet, the intersection of a row and a column is called a what?",Cell,Slide,Record,Folder,A,EASY,APPROVED,1
+23,JSS 3,ICT,MCQ,Which function adds a range of numbers in a spreadsheet?,COUNT,AVERAGE,SUM,MAX,C,EASY,APPROVED,1
+24,JSS 3,ICT,MCQ,What does the formula =AVERAGE(B2:B6) calculate?,The largest value in the range,The mean of values in the range,The number of blank cells,The total number of characters,B,MEDIUM,APPROVED,1
+25,JSS 3,ICT,MCQ,Which software is mainly used to create slide presentations?,Microsoft Access,Microsoft PowerPoint,Notepad,Calculator,B,EASY,APPROVED,1
+26,JSS 3,ICT,MCQ,Which feature applies the same visual design to slides in a presentation?,Slide theme,Spell check,Mail merge,Page break,A,MEDIUM,APPROVED,1
+27,JSS 3,ICT,MCQ,What is the purpose of a search engine?,To find information on the internet,To format a hard disk,To scan paper documents,To create a local network cable,A,EASY,APPROVED,1
+28,JSS 3,ICT,MCQ,Which of these is a search engine?,Firefox,Google,Windows,Excel,B,EASY,APPROVED,1
+29,JSS 3,ICT,MCQ,What is phishing?,A method of cleaning a keyboard,A trick used to steal personal information through fake messages or websites,A way to compress files,A type of computer monitor,B,MEDIUM,APPROVED,1
+30,JSS 3,ICT,MCQ,Why should you log out after using a shared computer?,To make the computer faster,To prevent others from accessing your account,To delete the operating system,To improve screen resolution,B,EASY,APPROVED,1
+31,JSS 3,ICT,MCQ,Which is the strongest password?,password123,12345678,Emmanuel,T9#qL2!vR8,D,MEDIUM,APPROVED,1
+32,JSS 3,ICT,MCQ,What is cloud storage?,Saving files on remote internet-based servers,Saving files only on paper,Storing files inside a keyboard,Keeping files in the recycle bin,A,EASY,APPROVED,1
+33,JSS 3,ICT,MCQ,Which file extension is commonly associated with a PDF document?,.jpg,.pdf,.mp3,.exe,B,EASY,APPROVED,1
+34,JSS 3,ICT,MCQ,What does HTML mainly provide?,The structure of web pages,A computer's power supply,A spreadsheet calculation engine,A wireless signal,A,MEDIUM,APPROVED,1
+35,JSS 3,ICT,MCQ,Which language is commonly used to style the appearance of web pages?,CSS,SQL,BASIC,XML only,A,MEDIUM,APPROVED,1
+36,JSS 3,ICT,MCQ,What is the main purpose of an algorithm?,To provide step-by-step instructions for solving a problem,To increase monitor size,To store electricity,To connect a printer physically,A,MEDIUM,APPROVED,1
+37,JSS 3,ICT,MCQ,"In a flowchart, which shape usually represents a decision?",Rectangle,Oval,Diamond,Parallelogram,C,MEDIUM,APPROVED,1
+38,JSS 3,ICT,MCQ,What is a computer network?,A group of connected devices that share data and resources,A collection of unrelated files,A type of application software,A single computer monitor,A,EASY,APPROVED,1
+39,JSS 3,ICT,MCQ,Which transmission medium uses light to carry data?,Twisted-pair copper cable,Coaxial cable,Fibre-optic cable,Telephone handset,C,MEDIUM,APPROVED,1
+40,JSS 3,ICT,MCQ,What is bandwidth in networking?,The capacity of a connection to carry data,The physical length of a keyboard,The number of files in a folder,The brightness of a monitor,A,MEDIUM,APPROVED,1
+41,JSS 3,ICT,MCQ,Which of the following is an example of e-commerce?,Buying a textbook through an online store,Typing a letter offline,Changing desktop wallpaper,Printing a photograph,A,EASY,APPROVED,1
+42,JSS 3,ICT,MCQ,What is a spreadsheet workbook?,A file that contains one or more worksheets,A single cell only,A printed chart,A computer's operating system,A,MEDIUM,APPROVED,1
+43,JSS 3,ICT,MCQ,Which database field is commonly used to uniquely identify each record?,Primary key,Font size,Page margin,Slide number,A,MEDIUM,APPROVED,1
+44,JSS 3,ICT,MCQ,What does backup mean in computing?,Making an extra copy of data for recovery,Deleting all old files,Changing a password,Turning off a monitor,A,EASY,APPROVED,1
+45,JSS 3,ICT,MCQ,Which practice is safest when using public Wi-Fi?,Accessing sensitive accounts without protection,Sharing your password with others,Avoiding sensitive transactions on unsecured networks,Turning off device updates permanently,C,MEDIUM,APPROVED,1
+46,JSS 3,ICT,MCQ,What is two-factor authentication?,Using two usernames,Verifying identity with two different types of evidence,Creating two copies of a file,Using two monitors,B,MEDIUM,APPROVED,1
+47,JSS 3,ICT,MCQ,Which of these is an example of assistive technology?,Screen reader,Paper clip,Desk lamp,Extension cord,A,MEDIUM,APPROVED,1
+48,JSS 3,ICT,MCQ,What is the purpose of an IP address?,To identify a device on an IP network,To measure processor temperature,To name a spreadsheet worksheet,To store a user's password,A,MEDIUM,APPROVED,1
+49,JSS 3,ICT,MCQ,Which application is best suited for writing and editing letters?,Word processor,Database manager,Media player,Antivirus utility,A,EASY,APPROVED,1
+50,JSS 3,ICT,MCQ,What is the main purpose of the Recycle Bin in Windows?,To temporarily hold deleted files,To store internet passwords,To run computer updates,To scan for viruses,A,EASY,APPROVED,1
