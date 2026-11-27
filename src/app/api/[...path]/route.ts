@@ -4,7 +4,11 @@ export const dynamic = 'force-dynamic'
 export const runtime = 'nodejs'
 
 async function proxy(request: NextRequest, context: { params: { path: string[] } }) {
-  const base = (process.env.FASTAPI_BASE_URL || 'http://127.0.0.1:8000').replace(/\/$/, '')
+  const base = (
+    process.env.FASTAPI_BASE_URL ||
+    process.env.NEXT_PUBLIC_API_URL ||
+    'https://brainbattle-backend-5tno.onrender.com'
+  ).replace(/\/$/, '')
   const path = (context.params.path || []).map(encodeURIComponent).join('/')
   const target = `${base}/api/v1/${path}${request.nextUrl.search}`
   const headers = new Headers(request.headers)
@@ -15,7 +19,16 @@ async function proxy(request: NextRequest, context: { params: { path: string[] }
   if (!['GET', 'HEAD'].includes(request.method)) body = await request.arrayBuffer()
 
   try {
-    const upstream = await fetch(target, { method: request.method, headers, body, cache: 'no-store' })
+    const controller = new AbortController()
+    const timeout = setTimeout(() => controller.abort(), 45000)
+    const upstream = await fetch(target, {
+      method: request.method,
+      headers,
+      body,
+      cache: 'no-store',
+      signal: controller.signal,
+    })
+    clearTimeout(timeout)
     const responseHeaders = new Headers()
     upstream.headers.forEach((value, key) => {
       if (!['content-length', 'content-encoding', 'transfer-encoding', 'connection'].includes(key.toLowerCase())) {

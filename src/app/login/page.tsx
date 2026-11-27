@@ -2,15 +2,24 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import BrainBattleLogo from '@/components/branding/BrainBattleLogo'
+import { apiFetch } from '@/lib/api'
 export default function Login() {
   const [err, setErr] = useState(''); const [busy, setBusy] = useState(false)
   async function submit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault(); setBusy(true); setErr('')
     const f = new FormData(e.currentTarget)
-    const r = await fetch('/api/auth/login', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ loginId: f.get('loginId'), password: f.get('password') }) })
-    const j = await r.json(); setBusy(false)
-    if (!r.ok) return setErr(j.detail ?? j.error ?? 'Could not sign in')
-    location.href = { ADMIN: '/admin', TEACHER: '/teacher', STUDENT: '/student' }[j.role as 'ADMIN'] 
+    try {
+      const { data: j } = await apiFetch('/api/auth/login', {
+        method: 'POST',
+        body: JSON.stringify({ loginId: f.get('loginId'), password: f.get('password') }),
+      })
+      const payload = j as { role?: 'ADMIN' | 'TEACHER' | 'STUDENT' }
+      location.assign({ ADMIN: '/admin', TEACHER: '/teacher', STUDENT: '/student' }[payload.role as 'ADMIN' | 'TEACHER' | 'STUDENT'] || '/')
+    } catch (error) {
+      setErr(error instanceof Error ? error.message : 'Unable to connect. Please check your internet connection and try again.')
+    } finally {
+      setBusy(false)
+    }
   }
   return <main className="login-page"><section className="login-card">
     <BrainBattleLogo width={132} priority />
