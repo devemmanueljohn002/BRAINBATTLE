@@ -19,8 +19,10 @@ Edit `backend/.env`. Set `DATABASE_URL=sqlite:///./data/championship.db`, `ADMIN
 Then:
 
 ```powershell
-alembic upgrade head
+python -m alembic upgrade head
 ```
+
+Use `python -m alembic` on Windows instead of the `alembic.exe` launcher. A moved virtual environment can leave that launcher pointing to the project’s previous location.
 
 ## 2. Check the old PostgreSQL source
 

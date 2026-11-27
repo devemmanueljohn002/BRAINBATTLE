@@ -31,11 +31,12 @@ Copy-Item .env.example .env
 ```
 
 Edit `backend/.env`. Set `DATABASE_URL=sqlite:///./data/championship.db`, `ADMIN_LOGIN`, and a strong `ADMIN_PASSWORD` (at least 12 characters). Keep this file private.
+On Windows, run Alembic through the active Python interpreter (`python -m alembic`) rather than the `alembic.exe` launcher. The launcher can retain the path from an earlier checkout if the project or virtual environment was moved.
 
 ### Fresh installation (no existing PostgreSQL data to import)
 
 ```powershell
-alembic upgrade head
+python -m alembic upgrade head
 python -m app.db.seed
 ```
 
@@ -69,6 +70,18 @@ SESSION_COOKIE_NAME=sid
 
 For production, set `NEXT_PUBLIC_SITE_URL` to the canonical public origin so social preview image URLs use the deployed host. Vercel deployments can use the platform-provided `VERCEL_URL`.
 
+### Production API configuration
+
+In Vercel, set `FASTAPI_BASE_URL` to `https://brainbattle-backend-5tno.onrender.com` and keep `SESSION_COOKIE_NAME=sid`. Use the backend origin only: do not append `/docs`, `/api/v1`, or a localhost address. The browser submits login to `/api/auth/login`; the Next.js proxy forwards it as `POST /api/v1/auth/login`.
+
+In Render, set `CORS_ORIGINS` to the comma-separated allowed frontend origins:
+
+```dotenv
+CORS_ORIGINS=https://brainbattle-beige.vercel.app,https://brainbattle-chap12.vercel.app,https://brainbattle-git-main-chap12.vercel.app
+```
+
+If the Vercel project uses another production or custom domain, add its exact `https://` origin to this list. Redeploy the backend after changing `CORS_ORIGINS`, and redeploy the frontend after changing its environment variables.
+
 Then start Next.js:
 
 ```powershell
@@ -94,7 +107,7 @@ npm run build
 
 ## Existing PostgreSQL data
 
-The original Prisma schema and SQL migration are retained as migration references. If the old PostgreSQL database is accessible, set `LEGACY_DATABASE_URL` in `backend/.env` (never commit or share this value). First create the SQLite schema with `alembic upgrade head`, then run a dry run:
+The original Prisma schema and SQL migration are retained as migration references. If the old PostgreSQL database is accessible, set `LEGACY_DATABASE_URL` in `backend/.env` (never commit or share this value). First create the SQLite schema with `python -m alembic upgrade head`, then run a dry run:
 
 ```powershell
 python scripts/migrate_postgres_to_sqlite.py
@@ -250,7 +263,7 @@ This setup is suitable for a local hall or modest deployment. For multiple FastA
 Back up the database before upgrading. From `backend/` run:
 
 ```powershell
-alembic upgrade head
+python -m alembic upgrade head
 ```
 
 The live competition migration is `0003_live_competitions`, and the persisted timer state is `0004_live_timer_state`. Both migrations add tables or columns and do not intentionally delete existing CBT data.
@@ -262,7 +275,7 @@ Backend terminal:
 ```powershell
 cd backend
 .\.venv\Scripts\Activate.ps1
-alembic upgrade head
+python -m alembic upgrade head
 python -m uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
 ```
 

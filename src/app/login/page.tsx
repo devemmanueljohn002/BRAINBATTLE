@@ -13,8 +13,15 @@ export default function Login() {
         method: 'POST',
         body: JSON.stringify({ loginId: f.get('loginId'), password: f.get('password') }),
       })
-      const payload = j as { role?: 'ADMIN' | 'TEACHER' | 'STUDENT' }
-      location.assign({ ADMIN: '/admin', TEACHER: '/teacher', STUDENT: '/student' }[payload.role as 'ADMIN' | 'TEACHER' | 'STUDENT'] || '/')
+      const role = j && typeof j === 'object' && 'role' in j
+        ? (j as { role?: unknown }).role
+        : undefined
+      if (role !== 'ADMIN' && role !== 'TEACHER' && role !== 'STUDENT') {
+        console.error('[BRAINBATTLE login] Invalid authentication response', { responseType: typeof j })
+        setErr('The server returned an invalid login response. Please try again later.')
+        return
+      }
+      location.assign({ ADMIN: '/admin', TEACHER: '/teacher', STUDENT: '/student' }[role])
     } catch (error) {
       setErr(error instanceof Error ? error.message : 'Unable to connect. Please check your internet connection and try again.')
     } finally {
