@@ -4,9 +4,11 @@ import { backendFetch } from '@/lib/backend'
 export type CurrentUser = {
   id: string
   loginId: string
-  role: 'ADMIN' | 'TEACHER' | 'STUDENT'
+  role: 'SUPER_ADMIN' | 'ADMIN' | 'SCHOOL_ADMIN' | 'PLATFORM_SUPPORT' | 'QUIZ_MANAGER' | 'STUDENT_MANAGER' | 'TEACHER' | 'STUDENT'
   active: boolean
   mustChangePw: boolean
+  schoolId?: string | null
+  school?: { id: string; name: string; code: string; slug: string; accessStatus: string; logoUrl?: string | null }
   student?: { id: string; studentCode: string; fullName: string; classId: string }
   teacher?: { id: string; fullName: string }
   admin?: { id: string; fullName: string }

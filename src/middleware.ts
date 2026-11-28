@@ -5,4 +5,4 @@ export function middleware(req: NextRequest) {
   if (req.nextUrl.pathname.startsWith('/api/')) return NextResponse.json({ error: 'Sign in required' }, { status: 401 })
   return NextResponse.redirect(new URL('/login', req.url))
 }
-export const config = { matcher: ['/admin/:path*', '/teacher/:path*', '/student/:path*', '/api/admin/:path*'] }
+export const config = { matcher: ['/admin/:path*', '/super-admin/:path*', '/school-admin/:path*', '/teacher/:path*', '/student/:path*', '/api/admin/:path*', '/api/platform/:path*'] }

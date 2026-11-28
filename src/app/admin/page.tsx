@@ -5,7 +5,7 @@ import Link from 'next/link'
 export const dynamic = 'force-dynamic'
 
 export default async function Admin() {
-  await guard('ADMIN')
+  await guard('SUPER_ADMIN', 'ADMIN', 'QUIZ_MANAGER', 'STUDENT_MANAGER')
   const response = await backendFetch('/api/v1/admin/overview')
   const stats = response.ok ? await response.json() : null
   return <main className="portal-main"><h1>BRAINBATTLE Control Center</h1><p className="mut">Manage competitions, examinations, and student progress.</p>
