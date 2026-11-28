@@ -11,7 +11,7 @@ export default function HomePage() {
           <div className="eyebrow">THE ACADEMIC COMPETITION ARENA</div>
           <h1>THINK FAST.<br/><span>PLAY SMART. WIN BIG.</span></h1>
           <p>Take on CBT examinations, live competitions, class battles, and timed challenges. Test your knowledge and rise through the rankings.</p>
-          <div className="actions"><Link href="/login">ENTER THE ARENA</Link><Link className="sec" href="/leaderboard">VIEW RANKINGS</Link></div>
+          <div className="actions"><Link href="/login">ENTER THE ARENA</Link><Link className="sec" href="/register">CREATE ACCOUNT</Link><Link className="sec" href="/leaderboard">VIEW RANKINGS</Link></div>
         </section>
         <div className="brand-hero-art"><BrainBattleLogo href={null} width={360} priority className="brand-logo--hero" /></div>
       </main>

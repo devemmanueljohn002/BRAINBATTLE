@@ -12,6 +12,7 @@ export default function PlatformDashboard() {
   return <main className="portal-main"><h1>BRAINBATTLE Platform</h1><p className="mut">Central SaaS administration across all registered schools.</p>
     <div className="kpis">
       <div className="kpi"><b>{data.schools}</b><span>Total schools</span></div>
+      <div className="kpi"><b>{data.pendingSchools}</b><span>Pending school registrations</span></div>
       <div className="kpi"><b>{data.activeSchools}</b><span>Active schools</span></div>
       <div className="kpi"><b>{data.trialSchools}</b><span>Trial schools</span></div>
       <div className="kpi"><b>{data.suspendedSchools}</b><span>Suspended schools</span></div>

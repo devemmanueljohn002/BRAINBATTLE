@@ -80,6 +80,70 @@ table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:12px;bor
 .login-form button{min-height:46px}
 .login-home-link{margin-top:12px;color:var(--mut);font-size:.86rem}
 .login-home-link:hover{color:var(--electric)}
+.login-layout{width:min(100%,1120px);display:grid;grid-template-columns:minmax(0,1fr) minmax(340px,440px);gap:clamp(36px,7vw,100px);align-items:center}
+.login-story{max-width:620px}
+.login-story>.brand-logo{margin-bottom:26px}
+.login-eyebrow{margin:0 0 10px;color:var(--electric);font-size:.72rem;font-weight:900;letter-spacing:.15em}
+.login-story h1{margin:0;font-size:clamp(2.4rem,5.4vw,4.7rem);line-height:1.04;letter-spacing:-.045em}
+.login-story h1 span{color:#7dc7ff}
+.login-story>p:not(.login-eyebrow){max-width:560px;color:#c9d4ef;line-height:1.8;font-size:1.05rem}
+.login-role-note{margin-top:28px;padding:14px 16px;border-left:3px solid var(--electric);background:rgba(37,99,235,.12);color:#d8e7ff}
+.login-card{width:100%;align-items:stretch;text-align:left}
+.login-card h2{margin:0;font-size:clamp(1.55rem,4vw,2rem)}
+.login-card>.mut{margin:8px 0 16px}
+.login-card .login-eyebrow{margin-bottom:8px}
+.login-password-row{flex-wrap:nowrap!important;margin:0!important}
+.login-password-row input{width:100%;min-width:0}
+.login-options{justify-content:space-between;align-items:center;margin:2px 0!important;font-size:.84rem}
+.login-options>a,.login-register-prompt a{color:#81caff;font-weight:700}
+.login-check{display:flex!important;align-items:center;gap:8px!important;font-weight:500!important}
+.login-check input{width:16px;height:16px;margin:0}
+.login-register-prompt{margin:20px 0 0;text-align:center;color:var(--mut);font-size:.9rem}
+.login-home-link{align-self:center}
+.register-panel,.register-form-card{width:min(100%,940px);padding:clamp(22px,4vw,42px);border:1px solid var(--line);border-radius:20px;background:linear-gradient(145deg,rgba(17,24,39,.96),rgba(11,16,32,.98));box-shadow:0 28px 80px rgba(0,0,0,.28)}
+.register-panel{text-align:center}
+.register-panel>.brand-logo,.register-form-card>.brand-logo{margin:0 auto 18px}
+.register-panel h1,.register-form-card h1{margin:0;font-size:clamp(1.8rem,4vw,2.5rem)}
+.register-panel>.mut,.register-form-card>.mut{max-width:700px;margin:10px auto 24px;line-height:1.65}
+.register-options{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:30px 0 20px;text-align:left}
+.register-option{min-height:290px;padding:22px;border:1px solid var(--line);border-radius:15px;background:rgba(15,28,58,.75);display:flex;flex-direction:column;transition:border-color .18s ease,transform .18s ease}
+.register-option:hover{border-color:#438df4;transform:translateY(-3px)}
+.register-option-icon{width:48px;height:48px;display:grid;place-items:center;border-radius:12px;background:rgba(37,99,235,.18);font-size:1.45rem}
+.register-option h2{margin:18px 0 8px;font-size:1.15rem}
+.register-option p{margin:0 0 20px;color:var(--mut);line-height:1.6;font-size:.9rem}
+.register-cta{display:inline-flex;align-items:center;justify-content:center;gap:8px;align-self:flex-start;margin-top:auto;padding:12px 15px;border-radius:9px;background:var(--blue);color:white;font-weight:800}
+.register-cta:hover{background:#1d4ed8}
+.register-form-card{width:min(100%,820px);margin:auto}
+.register-form-narrow{max-width:620px}
+.register-form-card>.login-home-link{display:inline-block;margin:0 0 22px}
+.register-form-card>.brand-logo{display:block}
+.register-form-card>.login-eyebrow,.register-form-card>h1,.register-form-card>p.mut{text-align:center}
+.registration-form{display:grid;gap:14px;margin-top:22px}
+.registration-form h2{grid-column:1/-1;margin:10px 0 0;padding-top:16px;border-top:1px solid var(--line);font-size:1.05rem}
+.registration-form label,.registration-code-block label{display:grid;gap:7px;font-size:.86rem;font-weight:700}
+.registration-form input,.registration-form select,.registration-code-field input{width:100%;min-width:0}
+.registration-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.registration-field-wide{grid-column:1/-1}
+.registration-form>button{min-height:48px}
+.registration-code-block{margin:24px 0}
+.registration-code-field{display:flex;gap:8px}
+.registration-code-field button{white-space:nowrap}
+.registration-school-valid{margin:6px 0 14px;color:#86efac;font-weight:700}
+.registration-strength{margin:-8px 0 0}
+.registration-summary{margin:24px 0;padding:16px;border:1px solid var(--line);border-radius:12px;background:rgba(15,28,58,.6)}
+.registration-summary p{display:flex;justify-content:space-between;gap:16px;margin:0;padding:10px 0;border-bottom:1px solid rgba(148,163,184,.14)}
+.registration-summary p:last-child{border-bottom:0}
+.registration-summary b{color:#cdd9ee}
+.registration-summary span{overflow-wrap:anywhere;text-align:right;color:var(--mut)}
+.registration-success{text-align:center}
+.registration-success .register-cta{margin-top:10px}
+.registration-review-list{display:grid;gap:16px}
+.registration-review-heading{display:flex;justify-content:space-between;gap:20px;align-items:center}
+.registration-review-heading h2{margin:0}
+.registration-status{padding:7px 10px;border:1px solid rgba(125,199,255,.35);border-radius:8px;color:#9bd4ff;font-size:.8rem;font-weight:800}
+.registration-review-list .registration-summary{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 20px}
+@media(max-width:820px){.login-layout{max-width:540px;grid-template-columns:1fr;gap:30px}.login-story{display:none}.register-options{grid-template-columns:1fr}.register-option{min-height:0}.registration-review-list .registration-summary{grid-template-columns:1fr}}
+@media(max-width:560px){.login-page{padding:22px 14px}.register-panel,.register-form-card{padding:22px 18px}.registration-fields{grid-template-columns:1fr}.registration-field-wide{grid-column:auto}.registration-code-field{align-items:stretch}.registration-summary p{align-items:flex-start;flex-direction:column;gap:4px}.registration-summary span{text-align:left}.login-options{align-items:flex-start}.login-options>a{white-space:nowrap}}
 .leaderboard-brand,.exam-brand,.command-brand-lockup,.contestant-brand{display:flex;align-items:center;gap:12px}
 .leaderboard-brand h1{margin:2px 0}
 .leaderboard-brand .eyebrow{margin:0}

@@ -20,7 +20,10 @@ function getErrorMessage(status: number, data: unknown) {
 
   switch (status) {
     case 401: return 'Invalid ID or password. Please check your details and try again.'
-    case 403: return 'Your account is not permitted to sign in. Please contact your school administrator.'
+    case 403:
+      if (typeof payload?.detail === 'string') return payload.detail
+      if (typeof payload?.error === 'string') return payload.error
+      return 'Your account is not permitted to sign in. Please contact your school administrator.'
     case 404: return 'The login service could not be found. Please contact support.'
     case 422: return 'Please check your ID and password and try again.'
     case 500: return 'The login service encountered an internal error. Please try again later.'
